@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class DBUtils {
     // Thông tin kết nối MySQL
     private static final String URL = "jdbc:mysql://localhost:3306/quan_ly_nhan_vien?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
-    private static final String USER = "root"; // Thay bằng username của bạn
-    private static final String PASS = "nhunguy@123"; // Thay bằng password của bạn
+    private static final String USER = ""; // Thay bằng username của bạn
+    private static final String PASS = ""; // Thay bằng password của bạn
 
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
         // Nạp Driver MySQL
