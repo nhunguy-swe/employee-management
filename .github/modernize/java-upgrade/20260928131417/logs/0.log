@@ -1,0 +1,218 @@
+2026-09-28T13:14:17.155Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T13:14:17.156Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "11",
+        "targetVersion": "25"
+      }
+    ]
+  }
+}}).
+2026-09-28T13:14:17.156Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T13:14:17.163Z [INFO] Project d:\Download\quan-ly-nhan-vien is a maven project, try to get java version from pom.xml
+2026-09-28T13:14:17.169Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260928131417,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928131417"
+}}).
+2026-09-28T13:14:17.192Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T13:14:17.197Z [INFO] Project java version: 11
+2026-09-28T13:14:17.199Z [INFO] Maven project detected.
+2026-09-28T13:14:17.200Z [INFO] Build tool type: mvn
+2026-09-28T13:14:17.541Z [INFO] JDK: undefined
+2026-09-28T13:14:17.542Z [ERROR] Failed to detect or resolve JDK for the project at d:\Download\quan-ly-nhan-vien.
+2026-09-28T13:14:17.543Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect or resolve JDK for the project at d:\Download\quan-ly-nhan-vien. Please ensure JDK 11 is installed and properly configured on the machine.
+2026-09-28T13:14:17.548Z [INFO] Maven project detected.
+2026-09-28T13:14:17.549Z [INFO] Project d:\Download\quan-ly-nhan-vien is a maven project, try to get java version from pom.xml
+2026-09-28T13:14:20.562Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T13:14:20.563Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260928131417",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-09-28T13:14:20.563Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T13:14:20.565Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T13:14:20.566Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T13:14:20.658Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T13:14:20.659Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260928131417",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-09-28T13:14:20.659Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T13:14:20.660Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260928131417,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928131417"
+}}).
+2026-09-28T13:14:20.661Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T13:14:21.018Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-09-28T13:14:21.018Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260928131417"
+}}).
+2026-09-28T13:14:21.019Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T13:14:21.020Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-09-28T13:14:21.021Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-09-28T13:14:21.313Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-09-28T13:14:21.313Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260928131417"
+}}).
+2026-09-28T13:14:21.314Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T13:14:21.385Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 17.0.12\n   📁 Path: C:\\Program Files\\Java\\jdk-17\\bin\n   🏷️ Source: others\n\n2. Java 17.0.18\n   📁 Path: C:\\Users\\Admin\\.jdks\\ms-17.0.18\\bin\n   🏷️ Source: others\n\n3. Java 17.0.19\n   📁 Path: C:\\Users\\Admin\\.jdks\\ms-17.0.19\\bin\n   🏷️ Source: others\n\n4. Java 23\n   📁 Path: C:\\Program Files\\Java\\jdk-23\\bin\n   🏷️ Source: others\n\nTotal: 4 JDK installation(s) found"
+}}).
+2026-09-28T13:14:21.385Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-09-28T13:14:21.435Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-09-28T13:14:21.435Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260928131417",
+  "includeVersion": true
+}}).
+2026-09-28T13:14:21.436Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T13:14:21.437Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-09-28T13:14:21.438Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-09-28T13:14:21.683Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-09-28T13:14:21.683Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20260928131417",
+  "includeVersion": true
+}}).
+2026-09-28T13:14:21.684Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T13:14:21.728Z [INFO] [Tool.invoke]({result: {
+  "message": "No Maven installations found."
+}}).
+2026-09-28T13:14:21.728Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-09-28T13:14:53.802Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T13:14:53.803Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260928131417",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planReviewed",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-09-28T13:14:53.803Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T13:14:53.803Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T13:14:53.804Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T13:14:53.910Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T13:14:53.910Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260928131417",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planReviewed",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-09-28T13:14:53.910Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T13:14:53.911Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260928131417,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928131417"
+}}).
+2026-09-28T13:14:53.912Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T13:14:57.097Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-09-28T13:14:57.098Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260928131417",
+  "autoExecute": true
+}}).
+2026-09-28T13:14:57.098Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T13:14:57.099Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Auto-executing [upgrade plan](file:///d:/Download/quan-ly-nhan-vien/.github/modernize/java-upgrade/20260928131417/plan.md)"
+}}).
+2026-09-28T13:14:57.100Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-09-28T13:14:57.269Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-09-28T13:14:57.269Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, modelId: auto, input: {
+  "sessionId": "20260928131417",
+  "autoExecute": true
+}}).
+2026-09-28T13:14:57.269Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T13:14:57.270Z [INFO] Upgrade plan confirmed successfully.
+2026-09-28T13:14:57.270Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now."
+}}).
+2026-09-28T13:14:57.271Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-09-28T13:15:12.026Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T13:15:12.027Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260928131417",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-09-28T13:15:12.027Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T13:15:12.027Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T13:15:12.028Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T13:15:12.124Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T13:15:12.125Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260928131417",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-09-28T13:15:12.125Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T13:15:12.250Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20260928131417,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928131417"
+}}).
+2026-09-28T13:15:12.251Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T13:15:15.975Z [INFO] ---------------------prepare appmod-install-jdk----------------------
+2026-09-28T13:15:15.976Z [INFO] [Tool.prepareInvocation]({name: appmod-install-jdk, input: {
+  "sessionId": "20260928131417",
+  "version": "25",
+  "dest": "C:\\Users\\Admin\\.jdks"
+}}).
+2026-09-28T13:15:15.976Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T13:15:16.837Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install JDK"
+}}).
+2026-09-28T13:15:16.838Z [INFO] ----------------------prepared appmod-install-jdk----------------------
+2026-09-28T13:15:16.928Z [INFO] ----------------------invoke appmod-install-jdk----------------------
+2026-09-28T13:15:16.929Z [INFO] [Tool.invoke]({name: appmod-install-jdk, modelId: auto, input: {
+  "sessionId": "20260928131417",
+  "version": "25",
+  "dest": "C:\\Users\\Admin\\.jdks"
+}}).
+2026-09-28T13:15:16.929Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T13:16:58.162Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "C:\\Users\\Admin\\.jdks\\jdk-25.0.2\\bin",
+    "version": "25.0.2"
+  },
+  "message": "JDK 25 is installed at C:\\Users\\Admin\\.jdks\\jdk-25.0.2\\bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "25"
+  }
+}}).
+2026-09-28T13:16:58.163Z [INFO] ----------------------invoked appmod-install-jdk----------------------
+2026-09-28T13:17:00.114Z [INFO] ---------------------prepare appmod-install-maven----------------------
+2026-09-28T13:17:00.119Z [INFO] [Tool.prepareInvocation]({name: appmod-install-maven, input: {
+  "sessionId": "20260928131417",
+  "version": "latest",
+  "dest": "C:\\Users\\Admin\\.maven"
+}}).
+2026-09-28T13:17:00.120Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T13:17:03.482Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install Maven"
+}}).
+2026-09-28T13:17:03.483Z [INFO] ----------------------prepared appmod-install-maven----------------------
+2026-09-28T13:17:03.954Z [INFO] ----------------------invoke appmod-install-maven----------------------
+2026-09-28T13:17:03.954Z [INFO] [Tool.invoke]({name: appmod-install-maven, modelId: auto, input: {
+  "sessionId": "20260928131417",
+  "version": "latest",
+  "dest": "C:\\Users\\Admin\\.maven"
+}}).
+2026-09-28T13:17:03.955Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T13:17:18.087Z [ERROR] [Tool.invoke] error occurs when invoking tool appmod-install-maven: Error: Signature validation failed for C:\Users\Admin\.maven\maven-3.9.16\apache-maven-3.9.16-bin.zip: Failed to download from https://downloads.apache.org/maven/KEYS: fetch failed. This may be caused by proxy or firewall settings. Please check your network settings and install it manually..
+2026-09-28T13:17:18.088Z [INFO] ----------------------invoked appmod-install-maven----------------------
