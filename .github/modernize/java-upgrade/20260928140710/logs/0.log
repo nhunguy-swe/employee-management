@@ -1,0 +1,321 @@
+2026-09-28T14:07:10.908Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-09-28T14:07:10.909Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "",
+  "version": "latest",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien"
+}}).
+2026-09-28T14:07:10.909Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:07:11.069Z [INFO] [Tool.invoke]({result: {
+  "message": "No JDK installations found."
+}}).
+2026-09-28T14:07:11.071Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-09-28T14:07:12.428Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-09-28T14:07:12.429Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "",
+  "includeVersion": true,
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien"
+}}).
+2026-09-28T14:07:12.472Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:07:12.502Z [INFO] [Tool.invoke]({result: {
+  "message": "No Maven installations found."
+}}).
+2026-09-28T14:07:12.503Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-09-28T14:07:18.876Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T14:07:18.877Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "11",
+        "targetVersion": "25"
+      }
+    ]
+  }
+}}).
+2026-09-28T14:07:18.878Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:07:18.880Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T14:07:18.881Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T14:07:19.256Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T14:07:19.257Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "11",
+        "targetVersion": "25"
+      }
+    ]
+  }
+}}).
+2026-09-28T14:07:19.258Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:07:19.261Z [INFO] Project d:\Download\quan-ly-nhan-vien is a maven project, try to get java version from pom.xml
+2026-09-28T14:07:19.267Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260928140710,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928140710"
+}}).
+2026-09-28T14:07:19.268Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T14:07:19.273Z [INFO] Project java version: 11
+2026-09-28T14:07:19.274Z [INFO] Maven project detected.
+2026-09-28T14:07:19.275Z [INFO] Build tool type: mvn
+2026-09-28T14:07:20.601Z [INFO] JDK: undefined
+2026-09-28T14:07:20.602Z [ERROR] Failed to detect or resolve JDK for the project at d:\Download\quan-ly-nhan-vien.
+2026-09-28T14:07:20.603Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect or resolve JDK for the project at d:\Download\quan-ly-nhan-vien. Please ensure JDK 11 is installed and properly configured on the machine.
+2026-09-28T14:07:20.609Z [INFO] Maven project detected.
+2026-09-28T14:07:20.611Z [INFO] Project d:\Download\quan-ly-nhan-vien is a maven project, try to get java version from pom.xml
+2026-09-28T14:07:23.409Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T14:07:23.409Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-09-28T14:07:23.410Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:07:23.411Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T14:07:23.412Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T14:07:23.770Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T14:07:23.771Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-09-28T14:07:23.771Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:07:23.772Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260928140710,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928140710"
+}}).
+2026-09-28T14:07:23.773Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T14:08:17.956Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-09-28T14:08:17.957Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260928140710",
+  "autoExecute": true
+}}).
+2026-09-28T14:08:17.957Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:08:17.958Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Auto-executing [upgrade plan](file:///d:/Download/quan-ly-nhan-vien/.github/modernize/java-upgrade/20260928140710/plan.md)"
+}}).
+2026-09-28T14:08:17.958Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-09-28T14:08:18.103Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-09-28T14:08:18.103Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, modelId: auto, input: {
+  "sessionId": "20260928140710",
+  "autoExecute": true
+}}).
+2026-09-28T14:08:18.104Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:08:18.104Z [INFO] Upgrade plan confirmed successfully.
+2026-09-28T14:08:18.104Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now."
+}}).
+2026-09-28T14:08:18.105Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-09-28T14:08:44.802Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T14:08:44.803Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-09-28T14:08:44.803Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:08:44.803Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T14:08:44.804Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T14:08:45.024Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T14:08:45.024Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-09-28T14:08:45.025Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:08:45.184Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20260928140710,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928140710"
+}}).
+2026-09-28T14:08:45.184Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T14:08:56.960Z [INFO] ---------------------prepare appmod-install-jdk----------------------
+2026-09-28T14:08:56.963Z [INFO] [Tool.prepareInvocation]({name: appmod-install-jdk, input: {
+  "sessionId": "20260928140710",
+  "version": "25",
+  "dest": "D:\\jdk\\java-25"
+}}).
+2026-09-28T14:08:56.966Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:08:58.427Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install JDK"
+}}).
+2026-09-28T14:08:58.428Z [INFO] ----------------------prepared appmod-install-jdk----------------------
+2026-09-28T14:08:58.739Z [INFO] ----------------------invoke appmod-install-jdk----------------------
+2026-09-28T14:08:58.740Z [INFO] [Tool.invoke]({name: appmod-install-jdk, modelId: auto, input: {
+  "sessionId": "20260928140710",
+  "version": "25",
+  "dest": "D:\\jdk\\java-25"
+}}).
+2026-09-28T14:08:58.740Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:11:39.831Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "D:\\jdk\\java-25\\jdk-25.0.2\\bin",
+    "version": "25.0.2"
+  },
+  "message": "JDK 25 is installed at D:\\jdk\\java-25\\jdk-25.0.2\\bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "25"
+  }
+}}).
+2026-09-28T14:11:39.832Z [INFO] ----------------------invoked appmod-install-jdk----------------------
+2026-09-28T14:11:46.119Z [INFO] ---------------------prepare appmod-install-maven----------------------
+2026-09-28T14:11:46.120Z [INFO] [Tool.prepareInvocation]({name: appmod-install-maven, input: {
+  "sessionId": "20260928140710",
+  "version": "3.9.15",
+  "dest": "D:\\maven\\maven-3.9.15"
+}}).
+2026-09-28T14:11:46.121Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:11:59.197Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install Maven"
+}}).
+2026-09-28T14:11:59.201Z [INFO] ----------------------prepared appmod-install-maven----------------------
+2026-09-28T14:12:00.201Z [INFO] ----------------------invoke appmod-install-maven----------------------
+2026-09-28T14:12:00.203Z [INFO] [Tool.invoke]({name: appmod-install-maven, modelId: auto, input: {
+  "sessionId": "20260928140710",
+  "version": "3.9.15",
+  "dest": "D:\\maven\\maven-3.9.15"
+}}).
+2026-09-28T14:12:00.204Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:12:28.895Z [ERROR] [Tool.invoke] error occurs when invoking tool appmod-install-maven: Error: Failed to download from https://archive.apache.org/dist/maven/maven-3/3.9.15/binaries/apache-maven-3.9.15-bin.zip: fetch failed. This may be caused by proxy or firewall settings. Please check your network settings and install it manually..
+2026-09-28T14:12:28.896Z [INFO] ----------------------invoked appmod-install-maven----------------------
+2026-09-28T14:32:30.228Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T14:32:30.230Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "environmentSetup",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "D:\\jdk\\java-25\\jdk-25.0.2",
+    "buildToolPath": "C:\\Users\\Admin\\.m2\\wrapper\\dists\\apache-maven-3.9.16-bin\\5grr65jo27hi51sujmtcldfovl\\apache-maven-3.9.16\\bin\\mvn.cmd"
+  }
+}}).
+2026-09-28T14:32:30.231Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:32:30.232Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T14:32:30.233Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T14:32:30.899Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T14:32:30.900Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "environmentSetup",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "D:\\jdk\\java-25\\jdk-25.0.2",
+    "buildToolPath": "C:\\Users\\Admin\\.m2\\wrapper\\dists\\apache-maven-3.9.16-bin\\5grr65jo27hi51sujmtcldfovl\\apache-maven-3.9.16\\bin\\mvn.cmd"
+  }
+}}).
+2026-09-28T14:32:30.903Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:32:30.909Z [INFO] Project d:\Download\quan-ly-nhan-vien is a maven project, try to get java version from pom.xml
+2026-09-28T14:32:30.912Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260928140710,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928140710"
+}}).
+2026-09-28T14:32:30.912Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T14:32:30.916Z [INFO] Project java version: 25
+2026-09-28T14:32:30.924Z [INFO] Maven project detected.
+2026-09-28T14:32:30.925Z [INFO] Build tool type: mvn
+2026-09-28T14:32:30.925Z [INFO] JDK: {
+  "name": "java",
+  "path": "D:\\jdk\\java-25\\jdk-25.0.2\\bin",
+  "version": "25"
+}
+2026-09-28T14:32:30.926Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Admin\\.m2\\wrapper\\dists\\apache-maven-3.9.16-bin\\5grr65jo27hi51sujmtcldfovl\\apache-maven-3.9.16\\bin\\mvn.cmd\\bin",
+  "version": ""
+}
+2026-09-28T14:32:30.927Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Admin\\.m2\\wrapper\\dists\\apache-maven-3.9.16-bin\\5grr65jo27hi51sujmtcldfovl\\apache-maven-3.9.16\\bin\\mvn.cmd\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "D:\\jdk\\java-25\\jdk-25.0.2\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "quan-ly-nhan-vien",
+  "dir": "d:\\Download\\quan-ly-nhan-vien"
+}
+2026-09-28T14:33:16.077Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T14:33:16.080Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "baselineSetup",
+  "phase": "execute",
+  "status": "skipped",
+  "message": "Base JDK 11 was not available in the environment, so no baseline compile/test run was possible before the upgrade."
+}}).
+2026-09-28T14:33:16.081Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:33:16.081Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T14:33:16.082Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T14:33:16.579Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T14:33:16.579Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "baselineSetup",
+  "phase": "execute",
+  "status": "skipped",
+  "message": "Base JDK 11 was not available in the environment, so no baseline compile/test run was possible before the upgrade."
+}}).
+2026-09-28T14:33:16.580Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:33:16.582Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'baselineSetup' reported!\nSession ID: 20260928140710,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928140710"
+}}).
+2026-09-28T14:33:16.582Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T14:33:22.757Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T14:33:22.758Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Maven Compiler Settings to Java 25"
+  }
+}}).
+2026-09-28T14:33:22.758Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:33:22.759Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T14:33:22.759Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T14:33:22.961Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T14:33:22.962Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Maven Compiler Settings to Java 25"
+  }
+}}).
+2026-09-28T14:33:22.962Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:33:22.963Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260928140710,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928140710"
+}}).
+2026-09-28T14:33:22.964Z [INFO] ----------------------invoked appmod-report-event----------------------
