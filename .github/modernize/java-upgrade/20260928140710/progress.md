@@ -95,7 +95,7 @@
     - Result: ✅ SUCCESS | Final validation passed on Java 25
     - Notes: No project-specific runtime compatibility issues beyond the runtime target change were detected.
   - **Deferred Work**: None
-  - **Commit**: N/A
+  - **Commit**: ae2587a90234bff291675cc058ec760398b260dd - Step 5: Java 25 runtime upgrade - Compile: SUCCESS, Tests: 0/0 passed
 
 ---
 

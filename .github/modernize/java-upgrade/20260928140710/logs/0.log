@@ -319,3 +319,57 @@
   "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260928140710,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928140710"
 }}).
 2026-09-28T14:33:22.964Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T14:35:03.511Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T14:35:03.512Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-09-28T14:35:03.512Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:35:03.513Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T14:35:03.514Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T14:35:03.760Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T14:35:03.760Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-09-28T14:35:03.761Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:35:03.815Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionCompleted' reported!\nSession ID: 20260928140710,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928140710"
+}}).
+2026-09-28T14:35:03.816Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-28T14:35:05.517Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-28T14:35:05.517Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "summaryGenerated",
+  "phase": "summarize",
+  "status": "succeeded",
+  "message": "The Java 25 upgrade completed successfully, and the project compiles and passes the Maven test phase under the new runtime."
+}}).
+2026-09-28T14:35:05.518Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-28T14:35:05.518Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-28T14:35:05.519Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-28T14:35:05.671Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-28T14:35:05.671Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260928140710",
+  "projectPath": "d:\\Download\\quan-ly-nhan-vien",
+  "event": "summaryGenerated",
+  "phase": "summarize",
+  "status": "succeeded",
+  "message": "The Java 25 upgrade completed successfully, and the project compiles and passes the Maven test phase under the new runtime."
+}}).
+2026-09-28T14:35:05.671Z [INFO] [Tool.invoke] do invoke.
+2026-09-28T14:35:05.673Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'summaryGenerated' reported!\nSession ID: 20260928140710,\nSession Dir: d:\\Download\\quan-ly-nhan-vien\\.github\\modernize\\java-upgrade\\20260928140710"
+}}).
+2026-09-28T14:35:05.673Z [INFO] ----------------------invoked appmod-report-event----------------------
